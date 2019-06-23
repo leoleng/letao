@@ -1,0 +1,28 @@
+.product ul li a {
+    background-color: #fff;
+}
+
+.screen {
+    width: 92%;
+    margin: 10px auto 0 auto;
+}
+
+.mui-col-xs-6 {
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    background-color: #f6f6f6;
+}
+
+.mui-col-xs-6 .mui-icon-arrowdown {
+    font-size: 12px;
+}
+
+#refreshContainer {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    top: 44px;
+    width: 100%;
+}

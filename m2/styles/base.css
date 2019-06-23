@@ -1,0 +1,149 @@
+* {
+    touch-action: pan-y;
+}
+
+body .mui-content {
+    background-color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 公共样式 */
+
+.my-header,
+.my-foorts {
+    background-color: #006699;
+}
+
+.my-header>h1,
+.my-header>a,
+.my-foorts .mui-tab-item {
+    color: #fff;
+}
+
+.my-foorts .mui-tab-item.mui-active {
+    color: orangered;
+}
+
+
+/* / 公共样式 */
+
+
+/* 鞋款 */
+
+.nav-link,
+.brand {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.nav-link>a>img {
+    float: left;
+    width: 33.333%;
+}
+
+
+/* / 鞋款 */
+
+.title {
+    width: 100%;
+    /* padding: 8px 0; */
+}
+
+
+/* 品牌 */
+
+.brand ul {
+    padding: 0;
+    margin: 0;
+}
+
+.brand li {
+    float: left;
+    width: 25%;
+}
+
+.brand li img {
+    width: 100%;
+    vertical-align: top;
+}
+
+
+/* /品牌 */
+
+
+/* 运动生活专区  */
+
+.product {
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.product ul {
+    padding: 6px 0;
+}
+
+.product ul li {
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+
+.product ul li a {
+    display: block;
+    padding: 5px;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.product ul li a img {
+    width: 100%;
+}
+
+.name {
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    padding: 5px;
+    line-height: 18px;
+    text-align: center;
+    overflow: hidden;
+    color: #8f8f94;
+}
+
+.price {
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+
+.price span:first-child {
+    color: red;
+    padding-right: 3px;
+}
+
+.price span:last-child {
+    text-decoration: line-through;
+    padding-left: 3px;
+}
+
+.purchase {
+    display: block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-color: #006699;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+
+
+/*/ 运动生活专区  */

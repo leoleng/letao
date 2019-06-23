@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/mui/css/mui.min.css">
+    <link rel="stylesheet" href="./assets/fontAwesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <!-- <link rel="stylesheet" href="./styles/detail.css"> -->
+    <script src="./assets/mui/js/mui.min.js"></script>
+    <script src="./assets/artTemplate/template-native.js"></script>
+    <script src="./assets/zepto/zepto.min.js"></script>
+    <script src="./scripts/shopping.js"></script>
+    <!-- <script src="./scripts/detail.js"></script> -->
+    <style>
+        #shopping-ul {
+            margin-top: 0;
+        }
+        
+        .mui-media-body {
+            font-size: 14;
+            color: #8f8f94;
+        }
+        
+        red {
+            color: red;
+        }
+        
+        .underline {
+            font-style: unset
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- 头部区域 -->
+    <header class="mui-bar mui-bar-nav my-header">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+
+        <h1 class="mui-title">购物车</h1>
+        <a class="mui-pull-right mui-icon mui-icon-search"></a>
+    </header>
+
+    <!-- 导航区域 -->
+    <nav class="mui-bar mui-bar-tab my-foorts">
+        <a class="mui-tab-item mui-active" href="#tabbar">
+            <span class="mui-icon mui-icon-home"></span>
+            <span class="mui-tab-label">首页</span>
+        </a>
+        <a class="mui-tab-item" href="#tabbar-with-chat">
+            <span class="mui-icon mui-icon-email"></span>
+            <span class="mui-tab-label">消息</span>
+        </a>
+        <a class="mui-tab-item" href="#tabbar-with-contact">
+            <span class="fa fa-shopping-cart mui-icon"></span>
+            <span class="mui-tab-label">购物车</span>
+        </a>
+        <a class="mui-tab-item" href="#tabbar-with-map">
+            <span class="mui-icon mui-icon-gear"></span>
+            <span class="mui-tab-label">设置</span>
+        </a>
+    </nav>
+    <div class="mui-content">
+        <ul class="mui-table-view" id="shopping-ul">
+            <li class="mui-table-view-cell mui-media">
+                <a href="javascript:;">
+                    <img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+                    <div class="mui-media-body">
+                        能和心爱的人一起睡觉，是件幸福的事情；可是 能和心爱的人一起睡觉，是件幸福的事情；可是
+                        <p class='mui-ellipsis'>
+                            <input type="checkbox">
+                            <span class="red">￥255</span>
+                            <span class="underline">￥255</span> 鞋码:
+                            <span>50x1</span>双
+                        </p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <script id=" shopping-show " type="text/template ">
+        <li class="mui-table-view-cell mui-media ">
+            <a href="javascript:; ">
+                <img class="mui-media-object mui-pull-left " src="../images/shuijiao.jpg ">
+                <div class="mui-media-body ">
+                    幸福
+                    <p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+                </div>
+            </a>
+        </li>
+    </script>
+</body>
+
+</html>

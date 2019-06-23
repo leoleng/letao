@@ -1,0 +1,23 @@
+* {
+    touch-action: pan-y;
+}
+
+.getCode {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    font-size: 14px;
+    color: rgb(22, 200, 206);
+    transform: translateY(-50%)
+}
+
+.landing {
+    position: relative;
+    top: 10px;
+    right: -75%;
+}
+
+.registar-bnt {
+    width: 92%;
+    margin: 0 auto;
+}

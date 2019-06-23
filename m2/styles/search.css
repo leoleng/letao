@@ -1,0 +1,48 @@
+body .mui-content {
+    background-color: #efeff4;
+    padding: 10px;
+}
+
+.search {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #069;
+    margin-top: 15px;
+}
+
+.search input[type="text"] {
+    width: 100%;
+    height: 30px;
+    border: none;
+    font-size: 14px;
+    color: #474747;
+    padding-right: 70px;
+    background: none;
+}
+
+.search input[type="button"] {
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    width: 60px;
+    height: 32px;
+    line-height: 15px;
+    color: #fff;
+    background-color: #069;
+}
+
+.history {
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.history>span {
+    font-size: 14px;
+    color: #474747;
+}
+
+.history .mui-icon-trash::before {
+    margin-right: 5px;
+}
